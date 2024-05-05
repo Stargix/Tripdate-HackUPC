@@ -1,0 +1,54 @@
+<html>
+
+<head>
+	<script defer src="https://widget-js.cometchat.io/v3/cometchatwidget.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		.embedded__sidebar {
+
+			display: none !important;
+		}
+
+	</style>
+</head>
+
+<body style="margin: 0px;width: 100%;height: 100%;">
+	<div id="cometchat" style="width: 100vh;height: 100%;"></div>
+	<script>
+
+		// Get url parameters from the iframe
+
+	window.addEventListener('DOMContentLoaded', (event) => {
+		CometChatWidget.init({
+			"appID": "25285028be30d4bd",
+			"appRegion": "eu",
+			"authKey": "f89e36e92c49dedf948b57489dc7812a3ccfe980"
+		}).then(response => {
+			console.log("Initialization completed successfully");
+			//You can now call login function.
+			CometChatWidget.login({
+				"uid": "demo"
+			}).then(response => {
+				CometChatWidget.launch({
+					"widgetID": "bf89fc6b-e8ec-4283-b26a-65474ba2f3e3",
+					"target": "#cometchat",
+					"roundedCorners": "false",
+					"width": screen.width,
+					"defaultID": 'superhero1', //default UID (user) or GUID (group) to show,
+					"defaultType": 'user' //user or group
+				});
+			}, error => {
+				console.log("User login failed with error:", error);
+				//Check the reason for error and take appropriate action.
+			});
+		}, error => {
+			console.log("Initialization failed with error:", error);
+			//Check the reason for error and take appropriate action.
+		});
+	});
+	</script>
+
+
+</body>
+
+</html>
