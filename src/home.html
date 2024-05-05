@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        .boton-x {
+        width: 60px;
+        height: 60px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+        border-radius: 50%;
+        color: #fff; /* Blanco */
+        font-size: 24px;
+        font-weight: bold;
+        transition: background-color 0.3s; /* Transición para hover */
+}
+
+    .boton-x::before,
+    .boton-x::after {
+        content: '';
+        position: absolute;
+        width: 3px;
+        background-color: #fff;
+        height: 24px;
+        border:none;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .boton-x::before {
+        transform: translate(-50%, -50%) rotate(45deg);
+    }
+
+    .boton-x::after {
+        transform: translate(-50%, -50%) rotate(-45deg);
+    }
+
+    .boton-check {
+    width: 60px;
+    height: 60px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    color: #fff; /* Blanco */
+    font-size: 24px;
+    font-weight: bold;
+    transition: background-color 0.3s; /* Transición para hover */
+}
+
+.boton-check::before,
+.boton-check::after {
+    content: '';
+    position: absolute;
+    width: 3px; /* Ajusta el ancho del trazo */
+    background-color: #fff; /* Color del trazo */
+    top: 50%;
+    left: 20%; /* Ajusta la posición del trazo */
+}
+
+.boton-check::before {
+    height: 12px; /* Ajusta la longitud del primer trazo */
+    transform: rotate(-45deg); /* Rotar para formar el primer trazo del check */
+    top: 47%; /* Ajusta la posición vertical del segundo trazo */
+    left: 35%;
+}
+
+.boton-check::after {
+    height: 22px; /* Ajusta la longitud del segundo trazo */
+    transform: rotate(45deg); /* Rotar para formar el segundo trazo del check */
+    top: 33%; /* Ajusta la posición vertical del segundo trazo */
+    left: 53%; /* Ajusta la posición horizontal del segundo trazo */
+}
+
+
+    
+
+
+
+    </style> 
+</head>
+<body class="items-center flex flex-col" style="padding-bottom: 50px;">
+    <div class="mt-3 w-80 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+    
+    <h1 class="my-4 text-center text-3xl font-extrabold text-gray-900 dark:text-white md:text-3xl lg:text-6xl"><span class="text-transparent bg-clip-text bg-gradient-to-br from-pink-500 to-orange-400">Descripció</span></h1>
+    <p class="mx-4 mb-6 font-normal text-gray-500 lg:text-xl dark:text-gray-400">Soc una persona divertida amb ganes de viatjar i veure molt, m'encanten els avions i el menjar en llaunes de cafè precuinades.</p>
+   </div>
+
+    <div class="mt-2 w-80 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+
+
+    
+        <div style="align-items:center; display:flex;margin-top: 50px;justify-content: center;">
+
+        <button type="button" class="centrat boton-x text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center"></button>
+        
+        <img class="mx-2 w-40 h-40 rounded-full centrat" src="perfil1.jpg" alt="Rounded avatar">
+        
+        <button type="button" class="centrat boton-check text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center "></button>
+            
+    </div>
+    <div class="flex flex-col items-center pb-10">
+        <h5 class="mb-1 text-xl font-medium text-gray-900 dark:text-white">Bonnie Green</h5>
+        <span class="text-sm text-gray-500 dark:text-gray-400">Visual Designer</span>
+    </div>
+
+    </div>
+
+    <div class="mt-2 w-80 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+
+        
+
+<div class="mb-4 w-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-2 dark:bg-gray-800 dark:border-gray-700">
+
+    <h5 class=" text-center text-3xl font-extrabold text-gray-900 dark:text-white md:text-3xl lg:text-6xl text-transparent bg-clip-text bg-gradient-to-br from-pink-500 to-orange-400" >
+    Gustos
+    </h5>
+    <ul class="my-4 space-y-3">
+    
+    
+
+    <li class="text-center flex items-center p-3 text-base font-bold text-gray-900 rounded-lg bg-gray-50 hover:bg-gray-100 group hover:shadow dark:bg-gray-600 dark:hover:bg-gray-500 dark:text-white">
+   
+    <span class="flex-1 ms-1 whitespace-nowrap">Ciència 🧪</span>
+    
+    </li>
+
+
+    <li class="text-center flex items-center p-3 text-base font-bold text-gray-900 rounded-lg bg-gray-50 hover:bg-gray-100 group hover:shadow dark:bg-gray-600 dark:hover:bg-gray-500 dark:text-white">
+   
+    <span class="flex-1 ms-1 whitespace-nowrap">Història 📜</span>
+    
+    </li>
+
+
+    <li class="text-center flex items-center p-3 text-base font-bold text-gray-900 rounded-lg bg-gray-50 hover:bg-gray-100 group hover:shadow dark:bg-gray-600 dark:hover:bg-gray-500 dark:text-white">
+
+    <span class="flex-1 ms-1 whitespace-nowrap">Cultura 📖</span>
+    
+    </li>
+
+    <li class="text-center flex items-center p-3 text-base font-bold text-gray-900 rounded-lg bg-gray-50 hover:bg-gray-100 group hover:shadow dark:bg-gray-600 dark:hover:bg-gray-500 dark:text-white">
+   
+        <span class="flex-1 ms-1 whitespace-nowrap">Aire lliure 🌞</span>
+        
+        </li>
+
+
+    </ul>
+    </div>
+    </div>
+    
+        
+
+    </div>
+
+    
+
+    
+
+<div class="fixed bottom-0 z-50 w-full -translate-x-1/2 bg-white border-t border-gray-200 left-1/2 dark:bg-gray-700 dark:border-gray-600" style="position: fixed; width: 100%;z-index: 9999;">
+    <div class="w-full">
+        
+    </div>
+    <div class="grid h-full max-w-lg grid-cols-5 mx-auto">
+        <button data-tooltip-target="tooltip-home" type="button" class="inline-flex flex-col items-center justify-center p-4 hover:bg-gray-50 dark:hover:bg-gray-800 group">
+            <svg class="w-5 h-5 mb-1 text-gray-500 dark:text-gray-400 group-hover:text-blue-600 dark:group-hover:text-blue-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                <path d="m19.707 9.293-2-2-7-7a1 1 0 0 0-1.414 0l-7 7-2 2a1 1 0 0 0 1.414 1.414L2 10.414V18a2 2 0 0 0 2 2h3a1 1 0 0 0 1-1v-4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v4a1 1 0 0 0 1 1h3a2 2 0 0 0 2-2v-7.586l.293.293a1 1 0 0 0 1.414-1.414Z"/>
+            </svg>
+            <span class="sr-only">Home</span>
+        </button>
+
+        <button data-tooltip-target="tooltip-search" type="button" class="inline-flex flex-col items-center justify-center p-4 hover:bg-gray-50 dark:hover:bg-gray-800 group">
+            <svg class="w-5 h-5 mb-1 text-gray-500 dark:text-gray-400 group-hover:text-blue-600 dark:group-hover:text-blue-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
+            </svg>
+            <span class="sr-only">Search</span>
+        </button>
+        <div id="tooltip-search" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+            Search
+            <div class="tooltip-arrow" data-popper-arrow></div>
+        </div>
+
+        <div id="tooltip-home" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+            Home
+            <div class="tooltip-arrow" data-popper-arrow></div>
+        </div>
+        <button data-tooltip-target="tooltip-bookmark" type="button" class="inline-flex flex-col items-center justify-center p-4 hover:bg-gray-50 dark:hover:bg-gray-800 group">
+            
+
+            <svg class="w-6 h-6 text-gray-500 dark:text-gray-400 group-hover:text-blue-600 dark:group-hover:text-blue-500"  aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                <path d="m12.75 20.66 6.184-7.098c2.677-2.884 2.559-6.506.754-8.705-.898-1.095-2.206-1.816-3.72-1.855-1.293-.034-2.652.43-3.963 1.442-1.315-1.012-2.678-1.476-3.973-1.442-1.515.04-2.825.76-3.724 1.855-1.806 2.201-1.915 5.823.772 8.706l6.183 7.097c.19.216.46.34.743.34a.985.985 0 0 0 .743-.34Z"/>
+              </svg>
+              
+            
+            <span class="sr-only">Match</span>
+        </button>
+        <div id="tooltip-bookmark" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+            Match
+            <div class="tooltip-arrow" data-popper-arrow></div>
+        </div>
+        <button data-tooltip-target="tooltip-post" type="button" class="inline-flex flex-col items-center justify-center p-4 hover:bg-gray-50 dark:hover:bg-gray-800 group">
+            
+
+            <svg class="w-6 h-6 text-gray-500 dark:text-gray-400 group-hover:text-blue-600 dark:group-hover:text-blue-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                <path fill-rule="evenodd" d="M3 5.983C3 4.888 3.895 4 5 4h14c1.105 0 2 .888 2 1.983v8.923a1.992 1.992 0 0 1-2 1.983h-6.6l-2.867 2.7c-.955.899-2.533.228-2.533-1.08v-1.62H5c-1.105 0-2-.888-2-1.983V5.983Zm5.706 3.809a1 1 0 1 0-1.412 1.417 1 1 0 1 0 1.412-1.417Zm2.585.002a1 1 0 1 1 .003 1.414 1 1 0 0 1-.003-1.414Zm5.415-.002a1 1 0 1 0-1.412 1.417 1 1 0 1 0 1.412-1.417Z" clip-rule="evenodd"/>
+              </svg>
+              
+            <span class="sr-only">Chat</span>
+        </button>
+        <div id="tooltip-post" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+            Chat
+            <div class="tooltip-arrow" data-popper-arrow></div>
+        </div>
+        
+        <button data-tooltip-target="tooltip-settings" type="button" class="inline-flex flex-col items-center justify-center p-4 hover:bg-gray-50 dark:hover:bg-gray-800 group">
+            <img class="mx-2 w-8 h-8 rounded-full centrat" src="perfil1.jpg" alt="Rounded avatar">
+            <span class="sr-only">Profile</span>
+        </button>
+        <div id="tooltip-settings" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+            Profile
+            <div class="tooltip-arrow" data-popper-arrow></div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+    
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+</body>
+</html>
