@@ -13,7 +13,7 @@ flight destination, and the dates.
 # Options
 - User creation
 
-  <img src="/images/1.jpeg" alt="Imagen 1" style="width: 100px; height: auto; margin: 5px;">
+  <img src="/images/1.jpeg" alt="Imagen 1" style="width: 100px; height: auto; margin: 5px;"><img src="/images/10.jpeg" alt="Imagen 10" style="width: 100px; height: auto; margin: 5px;"><img src="/images/7.jpeg" alt="Imagen 7" style="width: 100px; height: auto; margin: 5px;"><img src="/images/8.jpeg" alt="Imagen 8" style="width: 100px; height: auto; margin: 5px;">
 - Recommendation Section
 
   <img src="/images/9.jpeg" alt="Imagen 9" style="width: 100px; height: auto; margin: 5px;">
@@ -37,11 +37,10 @@ able to include a orientative price of the experience and a description.
   <img src="/images/3.jpeg" alt="Imagen 3" style="width: 100px; height: auto; margin: 5px;">
  
   <img src="/images/5.jpeg" alt="Imagen 5" style="width: 100px; height: auto; margin: 5px;">
-  
-  <img src="/images/7.jpeg" alt="Imagen 7" style="width: 100px; height: auto; margin: 5px;">
-  <img src="/images/8.jpeg" alt="Imagen 8" style="width: 100px; height: auto; margin: 5px;">
 
-  <img src="/images/10.jpeg" alt="Imagen 10" style="width: 100px; height: auto; margin: 5px;">
+  
+
+ 
   
   <img src="/images/12.jpeg" alt="Imagen 12" style="width: 100px; height: auto; margin: 5px;">
   <img src="/images/13.jpeg" alt="Imagen 13" style="width: 100px; height: auto; margin: 5px;">
