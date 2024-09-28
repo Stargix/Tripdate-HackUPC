@@ -38,7 +38,7 @@ finally we coud reach to a good result.
 The python script uses Flask to comunicate with JavaScript and then it uses another
 API to generate random profile pictures (demo) as their weren't included initially to the dataset.
 
-<img src="/images/5.jpeg" alt="Imagen 5" style="width: 100px; height: auto; margin: 5px;">   <img src="/images/12.jpeg" alt="Imagen 12" style="width: 100px; height: auto; margin: 5px;">
+<img src="/images/12.jpeg" alt="Imagen 5" style="width: 100px; height: auto; margin: 5px;">   <img src="/images/5.jpeg" alt="Imagen 12" style="width: 100px; height: auto; margin: 5px;">
 
 
 # Recommendation Section
