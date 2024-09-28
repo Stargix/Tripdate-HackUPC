@@ -13,7 +13,7 @@ flight destination, and the dates.
 # Options
 - User creation
 
-  <img src="/images/1.jpeg" alt="Imagen 1" style="width: 100px; height: auto; margin: 5px;"><img src="/images/10.jpeg" alt="Imagen 10" style="width: 100px; height: auto; margin: 5px;"><img src="/images/7.jpeg" alt="Imagen 7" style="width: 100px; height: auto; margin: 5px;"><img src="/images/8.jpeg" alt="Imagen 8" style="width: 100px; height: auto; margin: 5px;">
+  <img src="/images/1.jpeg" alt="Imagen 1" style="width: 100px; height: auto; margin: 5px;"> <img src="/images/10.jpeg" alt="Imagen 10" style="width: 100px; height: auto; margin: 5px;"> <img src="/images/7.jpeg" alt="Imagen 7" style="width: 100px; height: auto; margin: 5px;"> <img src="/images/8.jpeg" alt="Imagen 8" style="width: 100px; height: auto; margin: 5px;">
 - Recommendation Section
 
   <img src="/images/9.jpeg" alt="Imagen 9" style="width: 100px; height: auto; margin: 5px;">
