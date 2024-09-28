@@ -18,8 +18,12 @@ flight destination, and the dates.
 
   <img src="/images/9.jpeg" alt="Imagen 9" style="width: 100px; height: auto; margin: 5px;">
 - Matching Section
-- Chat
+- Chat (API)
+  
+  <img src="/images/4.jpeg" alt="Imagen 4" style="width: 100px; height: auto; margin: 5px;">
 - Profile (demo)
+
+  <img src="/images/6.jpeg" alt="Imagen 6" style="width: 100px; height: auto; margin: 5px;">
 
 # Backend
 The recommendation Section works with a Chat-GPT API that returns in json places to visit on the visited place.
@@ -31,9 +35,9 @@ able to include a orientative price of the experience and a description.
   <img src="/images/11.jpeg" alt="Imagen 11" style="width: 100px; height: auto; margin: 5px;">
   
   <img src="/images/3.jpeg" alt="Imagen 3" style="width: 100px; height: auto; margin: 5px;">
-  <img src="/images/4.jpeg" alt="Imagen 4" style="width: 100px; height: auto; margin: 5px;">
+ 
   <img src="/images/5.jpeg" alt="Imagen 5" style="width: 100px; height: auto; margin: 5px;">
-  <img src="/images/6.jpeg" alt="Imagen 6" style="width: 100px; height: auto; margin: 5px;">
+  
   <img src="/images/7.jpeg" alt="Imagen 7" style="width: 100px; height: auto; margin: 5px;">
   <img src="/images/8.jpeg" alt="Imagen 8" style="width: 100px; height: auto; margin: 5px;">
 
