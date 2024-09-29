@@ -47,7 +47,7 @@ This iconic places of the visited city are used by another API to get images of 
 an idea as users of how do they look like. Moreover, thanks to the json returned by Chat-GPT, we were
 able to include a orientative price of the experience and a description.
 
-<img src="/images/2.jpeg" alt="Imagen 2" style="width: 150px; height: auto; margin: 5px;">   <img src="/images/11.jpeg" alt="Imagen 11" style="width: 100px; height: auto; margin: 5px;">
+<img src="/images/2.jpeg" alt="Imagen 2" style="width: 150px; height: auto; margin: 5px;">   <img src="/images/11.jpeg" alt="Imagen 11" style="width: 150px; height: auto; margin: 5px;">
 
 
  
