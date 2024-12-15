@@ -1,5 +1,5 @@
 # TripDate
-TripDate is a dating demo app developped at HackUPC 2024 to meet people while traveling
+TripDate is a dating demo app developped at HackUPC 2024 to meet people while traveling.
 
 <img src="/images/14.jpeg" alt="Imagen 14" style="width: 150px; height: auto; margin: 5px;">
 
